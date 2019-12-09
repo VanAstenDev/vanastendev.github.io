@@ -1,0 +1,52 @@
+body {
+    background-color: #353238;
+    font-family: 'Sulphur Point', sans-serif;
+    color: #edf2f4;
+
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #252327;
+}
+
+.main-body {
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    top: 10%;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #252327;
+}
+
+.current-project {
+    background-color: #735e88;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #be5a38;
+
+    padding: 20px;
+}
+
+button {
+    border-radius: 10%;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #a44200;
+    border-color: #be5a38;
+}
