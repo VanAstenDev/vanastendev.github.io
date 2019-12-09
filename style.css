@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .top-bar {
     position: absolute;
     top: 0%;
@@ -33,10 +39,11 @@ body {
 }
 
 .current-project {
-    background-color: #735e88;
+    background-color: #afdedc;
     border-width: 2px;
     border-style: solid;
-    border-color: #be5a38;
+    border-color: #5db7de;
+    color: #343039;
 
     padding: 20px;
 }
@@ -47,6 +54,7 @@ button {
     border-style: solid;
     font-size: 24px;
     padding: 10px;
-    background-color: #a44200;
-    border-color: #be5a38;
+    color: #343039;
+    background-color: #a6d7ed;
+    border-color: #5db7de;
 }
